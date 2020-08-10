@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(221, 219, 219);
+  width: 100vw;
+  height: 100vw;
+}
+header {
+  width: 100vw;
+  background-color: rgb(20, 13, 13);
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.container {
+  background-color: rgb(145, 27, 27);
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid rgb(20, 13, 13);
+  margin: 50px auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.container form {
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+label,
+#tipAmount {
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 0;
+}
+input,
+select {
+  font-size: 20px;
+  padding: 5px 10px;
+  border: 2px solid rgb(20, 13, 13);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-bottom: 10px;
+}
+#btn {
+  font-size: 20px;
+  color: rgb(20, 13, 13);
+  font-weight: bolder;
+  padding: 10px;
+  border: 2px solid rgb(20, 13, 13);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+:focus {
+  outline: none;
+}
+p{
+    text-align: center;
+}
